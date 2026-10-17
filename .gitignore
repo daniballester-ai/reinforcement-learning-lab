@@ -1,0 +1,23 @@
+# Publicar apenas: código dos experimentos, README e relatório final.
+# Tudo o mais fica só no Drive (planejamento, OpenSpec, resultados brutos).
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/reproduzir.ps1
+!/rl_lab/
+!/analysis/
+!/tests/
+!/notebooks/
+!/relatorio/
+/relatorio/*
+!/relatorio/Relatorio_Final.*
+
+# Nunca versionar artefatos de execução, mesmo dentro das pastas liberadas
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.pt
+*.pth
+*.mp4
+runs/

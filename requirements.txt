@@ -1,0 +1,11 @@
+gymnasium[classic-control,toy-text,atari]>=1.0
+ale-py>=0.10
+torch
+numpy
+pandas
+matplotlib
+moviepy
+pytest
+python-docx
+nbformat
+opencv-python-headless
