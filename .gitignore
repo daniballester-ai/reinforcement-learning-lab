@@ -21,3 +21,7 @@ __pycache__/
 *.pth
 *.mp4
 runs/
+.env
+
+# Gerador do notebook: fica só local
+notebooks/make_notebook.py
